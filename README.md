@@ -39,7 +39,7 @@ powershell.exe -ExecutionPolicy Bypass -File "join_to_domain.ps1"
 
 ### 1. Критические параметры
 ```powershell
-$domain = "avuar.local"  # Замените на ваш домен
+$domain = "domain.local"  # Замените на ваш домен
 $markerPath = "C:\Users\Public\join_to_domain.marker"  # Путь маркера
 ```
 
@@ -101,4 +101,4 @@ Set-ItemProperty -Path "HKLM:\SOFTWARE\YourCompany" -Name "DomainJoined" -Value 
 ---
 
 **Для внутреннего использования** | Перед массовым развертыванием протестируйте в тестовой среде  
-Copyright © 2025 Кодельник Максим Сергеевич (ООО "Генштаб") | MIT License
+Copyright © 2025 Кодельник Максим Сергеевич | MIT License
